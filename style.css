@@ -1,0 +1,92 @@
+.container{
+    border: 1px solid black;
+    background-color: #201f27;
+    width: 500px;
+    height: 450px;
+    margin: 0 auto;
+    color: white;
+    border-radius: 5px;
+}
+
+img{
+    width: 150px;
+    margin: 8px;
+}
+
+input[type="text"]{
+    margin: 8px;
+    width: 200px;
+    background-color: #201f27;
+    box-shadow: 0 0 5px 1px #fff;
+    color: white;
+}
+
+button{
+    background-color: #feb82b;
+    font-size: 15px;
+    margin-left: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 150px 300px;
+    grid-gap: 85px;
+}
+
+.star{
+    color: #feb82b;
+    margin-left: 70px;
+    margin-bottom: 12px;
+    margin-top: -15px;
+}
+
+#white{
+    color: white;
+}
+
+.inline{
+    padding: 2px;
+    margin: 5px;
+    color: #77767e;
+}
+.boxes{
+    padding: 2px;
+    margin: 5px;
+    border: 1px solid #201f27;
+    box-shadow: 0 0 2px 1px white;
+}
+.plot{
+    color: #77767e;
+    margin: 8px;
+}
+
+h3{
+    margin: 8px;
+}
+
+/* @media only screen and (max-width:600px){
+    .container{
+        width: 300px;
+    }
+    img{
+        width: 100px;
+    }
+    input[type="text"]{
+        width: 150px;
+    }
+    button{
+        font-size: 10px;
+        margin-left: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .grid{
+        display: grid;
+        grid-template-columns: 50px 200px;
+    }
+    .head{
+        font-size: 18px;
+    }
+} */
